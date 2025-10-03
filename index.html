@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Artist Portfolio – YOUR NAME</title>
+  <meta name="description" content="Portfolio of YOUR NAME: series-based works, artist statement, bio, and contact.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <div class="wrap header-inner">
+      <h1 class="site-title"><a href="#">YOUR NAME</a></h1>
+      <nav aria-label="Primary" class="site-nav">
+        <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle menu">Menu</button>
+        <ul id="navMenu" class="nav-menu">
+          <li><a href="#series">Works</a></li>
+          <li><a href="#statement">Statement</a></li>
+          <li><a href="#bio">Bio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-label="Intro">
+      <div class="wrap hero-inner">
+        <h2>Series &amp; Works</h2>
+        <p class="lede">Vertically arranged series with gallery overlays. Click a series thumbnail to view all works in that group.</p>
+        <a class="button" href="#series">Browse</a>
+      </div>
+    </section>
+
+    <section id="series" class="section series-vertical">
+      <div class="wrap">
+        <div class="toolbar">
+          <div class="filters">
+            <span class="filter-label">Filter by subcategory:</span>
+            <div id="filterPills" class="pill-row" role="group" aria-label="Filter by subcategories"></div>
+            <button id="clearFilters" class="pill clear" type="button">Clear</button>
+          </div>
+          <div class="expander">
+            <button id="expandAll" class="ghost" type="button">Expand All</button>
+            <button id="collapseAll" class="ghost" type="button">Collapse All</button>
+          </div>
+        </div>
+
+        <div id="seriesList" class="series-list" role="list"></div>
+      </div>
+    </section>
+
+    <section id="statement" class="section statement">
+      <div class="wrap narrow">
+        <h3>Artist Statement</h3>
+        <p>Paste your 150–250 word statement here. Keep a 90‑word short version for applications.</p>
+      </div>
+    </section>
+
+    <section id="bio" class="section bio">
+      <div class="wrap narrow">
+        <h3>Bio &amp; CV Highlights</h3>
+        <ul class="cv">
+          <li><strong>Education:</strong> Program / School, Year</li>
+          <li><strong>Exhibitions:</strong> 2024 Solo – Venue, City; 2023 Group – Venue, City</li>
+          <li><strong>Awards/Press:</strong> Name, Year</li>
+          <li><strong>Collections:</strong> Institution or notable collections</li>
+        </ul>
+        <p class="download"><a href="assets/YOUR_LASTNAME_CV.pdf" download>Download CV (PDF)</a></p>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="wrap narrow">
+        <h3>Contact</h3>
+        <p>For inquiries, email <a href="mailto:your@email.com">your@email.com</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; <span id="year"></span> YOUR NAME. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Artwork view">
+    <button class="lb-close" aria-label="Close">&times;</button>
+    <div class="lb-inner">
+      <img id="lbImg" alt="">
+      <div class="lb-meta">
+        <h4 id="lbTitle"></h4>
+        <p id="lbDetails"></p>
+        <p id="lbDesc" class="lb-desc"></p>
+      </div>
+      <button class="lb-prev" aria-label="Previous work">&#10094;</button>
+      <button class="lb-next" aria-label="Next work">&#10095;</button>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
