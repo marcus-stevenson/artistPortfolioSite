@@ -1,0 +1,44 @@
+[
+  {
+    "image_file": "assets/sample-images/work-1.jpg",
+    "thumb_file": "assets/sample-images/work-1.jpg",
+    "title": "Empire of Fulfillment",
+    "year": "2023",
+    "medium": "Silkscreen on cotton",
+    "dimensions": "18 \u00d7 24 in",
+    "series": "Boxes & Castles",
+    "subcategories": "Architecture, Packaging",
+    "alt_text": "Illustration of a castle inside a cardboard box",
+    "image_description": "A surreal monochrome silkscreen depicting a castle in a taped cardboard box; it weighs permanence against disposability.",
+    "order": "1",
+    "sub_order": "1"
+  },
+  {
+    "image_file": "assets/sample-images/work-2.jpg",
+    "thumb_file": "assets/sample-images/work-2.jpg",
+    "title": "Take Me With You",
+    "year": "2022",
+    "medium": "Ink on paper",
+    "dimensions": "11 \u00d7 14 in",
+    "series": "Monochrome",
+    "subcategories": "Shelter, Portability",
+    "alt_text": "A small house set inside an open cardboard box",
+    "image_description": "A hand\u2011inked drawing of a modest house cradled within a moving box, suggesting portability, precarity, and shelter.",
+    "order": "2",
+    "sub_order": "1"
+  },
+  {
+    "image_file": "assets/sample-images/work-3.jpg",
+    "thumb_file": "assets/sample-images/work-3.jpg",
+    "title": "Dear Dr. Strangelove",
+    "year": "2021",
+    "medium": "Ink & graphite",
+    "dimensions": "9 \u00d7 12 in",
+    "series": "Books & Blooms",
+    "subcategories": "Flora, Texts",
+    "alt_text": "Sunflower growing out of the pages of a worn book",
+    "image_description": "A sunflower emerges from the spine of a distressed book; organic growth vs haunted literature.",
+    "order": "3",
+    "sub_order": "1"
+  }
+]
